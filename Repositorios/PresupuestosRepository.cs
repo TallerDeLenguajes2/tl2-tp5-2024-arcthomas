@@ -13,10 +13,10 @@ public List<Presupuestos> GetAll()
 }
 public Presupuestos GetById(int id)
 {
-    string CadenaDeConexion = "Data Source=InstitutoDb.db;Cache=Shared";
+    string CadenaDeConexion = "Data Source=db\Tienda.db;";
     using (SqlConnection connection = new SqlConnection(CadenaDeConexion))
 {
-    string queryString = "SELECT NombreDestinatario FROM Presupuestos  WHERE idPresupuesto = 1;";
+    string queryString = "SELECT NombreDestinatario FROM Presupuestos;";
     var command = new SqlCommand(queryString, connection);
     connection.Open();
     using (var reader = command.ExecuteReader())
