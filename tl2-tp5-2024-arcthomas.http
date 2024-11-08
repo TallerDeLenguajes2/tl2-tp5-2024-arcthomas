@@ -1,4 +1,4 @@
-@tl2_tp5_2024_arcthomas_HostAddress = http://localhost:5188
+@tl2_tp5_2024_arcthomas_HostAddress = http://localhost:5245
 
 GET {{tl2_tp5_2024_arcthomas_HostAddress}}/weatherforecast/
 Accept: application/json

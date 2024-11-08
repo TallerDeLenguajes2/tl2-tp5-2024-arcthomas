@@ -1,4 +1,6 @@
-public class ProductoRepository : IRepository
+
+
+/*public class ProductoRepository : IRepository
 {
     public void Create(Productos prod)
     {
@@ -15,4 +17,4 @@ public class ProductoRepository : IRepository
     public void Delete(int id)
     {
     }
-}
+}*/
